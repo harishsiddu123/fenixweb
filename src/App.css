@@ -2,37 +2,95 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#All{
+  background-color: blue;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fenixlogo{
+  position: relative;
+  top: 10px;
+  background-color: red;
+  height: 100px;
+  border-radius: 15px;
+ width: auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#logo{
+  position: relative;
+  right: 400px;
+}
+#world{
+  height: 550px;
+  width: 550px;
+  position: relative;
+  top: 50px;
+  left: 200px;
+}
+.AI{
+  position: relative;
+  right: 400px;
+  bottom: 350px;
+}
+h1,p,h6{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#btn{
+  position: relative;
+  left: 200px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#fenix-mini{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.earth{
+  height: 400px;
+  width: 400px;
+  position: relative;
+  left: 300px;
+}
+#Pro1{
+  height: 700px;
+  width: 250px;
+  border: 2px solid white;
+  border-radius: 20px;
+  text-align: left;
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+#Pro2{
+  height: 700px;
+  width: 250px;
+  border: 2px solid white;
+  border-radius: 20px;
+  text-align: left;
+  position: relative;
+  left: 450px;
+  bottom: 645px;
+}
+#Pro3{
+  height: 700px;
+  width: 250px;
+  border: 2px solid white;
+  border-radius: 20px;
+  text-align: left;
+  position: relative;
+  left: 850px;
+  bottom: 1340px;
+}
+#bgimg{
+  position: relative;
+  bottom: 1250px;
+height:100%;
+width:100%;
+opacity: 1;
+}
+#heading{
+  position: relative;
+  bottom: 1800px;
+  right: 120px;
+  left: 50px;
+  height: 250px;
+  width: 350px;
+ background-color: brown;
+ border-radius: 10px;
 }
